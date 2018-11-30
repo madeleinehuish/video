@@ -21,6 +21,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    port: 8000 //madeleine added this line. can change the default port (8080) from here...
   }
 };
